@@ -1,0 +1,9 @@
+.swagger-section #header {
+  background-color: #1b3556;
+}
+
+.swagger-section #explore, .swagger-section #auth_container .authorize__btn,
+.swagger-section #explore, .swagger-section #auth_container .authorize__btn:hover,
+.swagger-section #explore:hover, .swagger-section #auth_container .authorize__btn:hover {
+  background-color: #f8b500;
+}
