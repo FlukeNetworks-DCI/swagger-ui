@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>LinkwareLive API Documentation</title>
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
   <link href='css/typography.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/reset.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'/>
@@ -39,7 +38,7 @@
       if (url && url.length > 1) {
         url = decodeURIComponent(url[1]);
       } else {
-        url = "http://localhost:8080/swagger.json";
+        url = "http://lopezapi-dev.link-lightning.com/v1/swagger.json";
       }
 
       hljs.configure({
