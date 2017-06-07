@@ -1,0 +1,17 @@
+.topbar {
+  background-color: #1b3556;
+
+  .download-url-wrapper {
+    input[type=text] {
+      border-color: #1b3556;
+    }
+
+    .download-url-button {
+      background-color: #f8b500;
+
+      &:hover {
+        background-color: #f8b500;
+      }
+    }
+  }
+}
