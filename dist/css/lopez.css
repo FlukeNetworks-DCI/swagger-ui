@@ -1,9 +1,8 @@
-.swagger-section #header {
+#swagger-ui .top-bar {
   background-color: #1b3556;
 }
 
-.swagger-section #explore, .swagger-section #auth_container .authorize__btn,
-.swagger-section #explore, .swagger-section #auth_container .authorize__btn:hover,
-.swagger-section #explore:hover, .swagger-section #auth_container .authorize__btn:hover {
+.topbar button,
+.topbar button:hover {
   background-color: #f8b500;
 }
